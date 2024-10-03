@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+  /* Header */
+/* Header */
+.header {
+  background-color: #4a90e2;
+  padding: 10px 20px; /* Reduced padding */
+  color: white;
+  z-index: 1000; /* Ensure it's above other content */
+  font-size: 1.5em; /* Adjusted font size */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: flex-start; /* Align items horizontally to the left */
+  border-radius: 0 0 10px 10px; /* Rounded corners at the bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  margin-left: 10px; /* Space between menu icon and title */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  margin-left: 10px; /* Add margin for spacing */
+}
+
+
+
